@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Seccion index */
+
+/* Color Fondo de Pagina */
+.header {
+    /* background-color: rgb(211, 11, 184); */
+    /* margin: 50px auto;
+    max-width: 1000px;
+    margin-top: 0px; */
+    border: double 5px black;
+    
+
+}
+
+.body {
+    /* background-color: darkviolet; */
+    min-height: 100%; 
+}
+.html{
+    height: 100%;
+}
+
+.main {
+    /* background-color: darkviolet; */
+    /* margin: 100px auto;
+    max-width: 1000px; */
+
+}
+
+.footer {
+    /* background-color: darkviolet; */
+    /* max-width: 1000px;
+    margin: 100px auto; */
+    font-size: larger;
+    font-style: oblique;
+    border: double 5px black;
+}
+
+/* Configuracion palabras en Bloque */
+.block {
+    margin: 5px;
+    padding: 3px;
+    border: 3px;
+}
+
+/* Color Palabras del Menu */
+.inicio {
+    /* background-color: white; */
+    /* max-width: 500px;
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 0px; */
+    font-size: large;
+    font-style: normal;
+    
+
+}
+
+.alimentos {
+    /* background-color: white; */
+    /* max-width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px; */
+    font-size: large;
+    font-style: normal;
+}
+
+.accesorios {
+    /* background-color: white; */
+    /* max-width: 500px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 0px; */
+    font-size: large;
+    font-style: normal;
+}
+
+.estetica {
+    /* background-color: white; */
+    /* max-width: 500 px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 0px; */
+    font-size: large;
+    font-style: normal;
+}
+
+.contacto {
+    /* background-color: white; */
+    /* max-width: 500px;
+    margin-left: 0px;
+    margin-right: 25px;
+    margin-top: 0px; */
+    font-size: large;
+    font-style: normal;
+}
+
+/* Posicion de Bloque a Linea */
+.posicionblock {
+    display: inline;
+    margin: 50 auto;
+    max-width: 500px;
+}
+.menucontenedor {
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-around ;
+}
+
+/* Posicionamiento barra menu web */
+.menuenlinea {
+    display: inline-block;
+    font-size: large;
+    font-style: normal;
+}
+.menuenlinea:hover{ 
+    transform: scale(1.5);
+}
+
+/* configuracion redes sociales */
+.redessociales {
+    /* max-width: 1000px;
+    margin-left: 475px; */
+}
+
+/* configuracion logo */
+.logo img {
+    max-width: 200px;
+}
+
+.articulocontenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.imagenlocal {
+    background-image: url("../local-firulais-img/WhatsApp\ Image\ 2022-05-20\ at\ 12.40.14\ PM.jpeg");
+    height: 900px
+    
+}
+
+.titulomain {
+    font-size: 100px;
+    font-style: italic;
+    margin-right: 20px;
+}
+
+
+.cuadroarticulo {}
+
+.mensajebienvenida {
+    margin: 0px auto;
+    margin-top: 110px;
+    font-size: 50px;
+    font-style: italic;
+    
+}
+
+/* seccion alimentos */
+.marcas {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: xx-large;
+    font-style: italic;
+    border: double 5PX black;
+    padding: 3px;
+}
+
+.seleccionalimentos {
+    display: inline-block;
+}
+
+.royalcanin {
+    max-width: 500px;
+    margin-left: 100px;
+    font-size: x-large;
+}
+
+.purina {
+    max-width:500px;
+    margin-left: 120px;
+    font-size: x-large;
+}
+
+.vitalcan {
+    max-width: 500px;
+    margin-left: 120px;
+    font-size: x-large;
+}
+
+.sieger {
+    max-width: 500px;
+    margin-left: 120px;
+    font-size: x-large;
+}
+
+.eukanuba {
+    max-width: 500px;
+    margin-left: 100px;
+    font-size: x-large;
+}
+
+.baires {
+    max-width: 500px;
+    margin-left: 120px;
+    margin-top: 100px;
+    font-size: x-large;
+}
+
+.seda {
+    max-width: 500px;
+    margin-left: 120px;
+    font-size: x-large;
+}
+
+.mars {
+    max-width: 500px;
+    margin-left: 120px;
+    font-size: x-large;
+}
+
+.otros {
+    max-width: 500px;
+    margin-top: 100px;
+    margin-left: 450px;
+    font-size: x-large;
+}
+
+.logoroyal {
+    max-width: 100px;
+    display: block;
+}
+
+.logopurina {
+    max-width: 100px;
+    display: block;
+}
+
+.logovitalcan {
+    max-width: 100px;
+    display: block;
+}
+
+.logosieger {
+    max-width: 75px;
+    display: block;
+}
+
+.logoeukanuba {
+    max-width: 100px;
+    display: block;
+}
+
+.logobaires {
+    max-width: 100px;
+    display: block;
+}
+
+.logoseda {
+    max-width: 100px;
+    display: block;
+}
+
+.logomars {
+    max-width: 100px;
+    display: block;
+}
+
+.logootros {
+    max-width: 100px;
+    display: block;
+}
+
+.maincuadro {
+    margin: 100px auto;
+    max-width: 1000px;
+    border: solid 5px black;
+}
+
+/* https://cdn.royalcanin-weshare-online.io/lSEua2QBaxEApS7L_vuK/v2/logo-rc-dms-2016-c */
+/* https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nestl%C3%A9_Purina_PetCare_logo.svg/2560px-Nestl%C3%A9_Purina_PetCare_logo.svg.png */
+/* https://http2.mlstatic.com/D_NQ_NP_731438-MLA31055618501_062019-O.jpg */
+
+
+/* seccion accesorios */
+.animals {
+    max-width: 500px;
+    margin-left: 100px;
+    font-size: x-large;
+}
+
+.perros {
+    max-width: 500px;
+    margin-left: 250px;
+    font-size: x-large;
+}
+
+.gigwi {
+    max-width: 500px;
+    margin-left: 250px;
+    font-size: x-large;
+}
+
+.kong {
+    max-width: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.otrosaccesorios {
+    max-width: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: x-large;
+}
+
+.logoanimals {
+    max-width: 100px;
+    display: block;
+}
+
+.logoperros {
+    max-width: 100px;
+    display: block;
+}
+
+.logogigwi {
+    max-width: 100px;
+    display: block;
+}
+
+.logokong {
+    max-width: 100px;
+    display: block;
+}
+
+.opcionestetica {
+    display: inline-block;
+}
+
+/* seccion estetica */
+.baños {
+    margin-left: 100px;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.cortes {
+    margin-left: 150px;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.cortehigienico {
+    margin-left: 150px;
+    font-size: x-large;
+    font-style: oblique;
+
+}
+
+.uñas {
+    margin-left: 150px;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.variedadbaños {
+    font-size: larger;
+    font-style: oblique;
+}
+
+.tradicional {
+    margin-left: 50px;
+}
+
+.medicado {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.fotobaños {
+    max-width: 300px;
+    display: block;
+}
+
+/* Seccion contacto */
+.medioscontacto {
+    font-size: x-large;
+    font-style: italic;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.imagencontacto {
+    max-width: 300px;
+    margin-left: 500px;
+}
+
+.datoscontacto {
+    display: inline-block;
+    font-size: larger;
+    font-style: italic;
+}
+
+.numero {
+    margin-left: 200px;
+}
+
+.ubicacion {
+    margin-left: 225px;
+}
+
+.mail {
+    margin-left: 400px;
+}
+.gridconteiner{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+.menuheader{
+    grid-area: header;
+   /* background-color: rgb(211, 37, 211); */
+   background: linear-gradient(90deg, rgba(0,0,36,0.011642156862745057) 8%, rgba(212,23,221,1) 49%, rgba(209,72,197,0.23853291316526615) 86%);
+
+}
+.mensajemain{
+    grid-area: main;
+    background-color: darkviolet;
+    
+}
+.redesfooter{
+grid-area: footer;
+/* background-color: darkviolet; */
+width: 100%;
+background-image: linear-gradient(to top, violet, pink, violet);
+
+}
+.contenedorredes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+
+}
+.redeshijo{
+    justify-self: center;
+}
+@media (min-width: 600px){
+    .gridconteiner{
+        grid-template-columns: auto;
+        grid-template-rows: 20% auto 10%;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer"
+    }
+    .mensajebienvenida{
+        font-size: 25px;
+    }
+}
+ 
+
+@media (min-width: 320px){
+.gridconteiner{
+    grid-template-columns: auto;
+    grid-template-rows: 20% auto 10%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+.mensajebienvenida{
+    font-size: 10px;
+}
+}
